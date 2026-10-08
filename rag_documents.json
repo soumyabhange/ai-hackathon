@@ -1,0 +1,23 @@
+[
+    {
+        "endpoint": "/users",
+        "method": "GET",
+        "function": "get_users",
+        "parameters": "None",
+        "description": "Get all users from the system."
+    },
+    {
+        "endpoint": "/users/<int:user_id>",
+        "method": "GET",
+        "function": "get_user",
+        "parameters": "user_id",
+        "description": "Get a specific user by ID."
+    },
+    {
+        "endpoint": "/users",
+        "method": "POST",
+        "function": "create_user",
+        "parameters": "None",
+        "description": "Create a new user."
+    }
+]
